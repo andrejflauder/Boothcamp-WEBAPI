@@ -1,0 +1,20 @@
+CREATE TABLE Star
+(StarID int,
+StarName varchar(100) PRIMARY KEY,
+StarLocation varchar(100)
+)
+
+CREATE TABLE Planet
+(PlanetID int,
+PlanetName varchar(100),
+PlanetLocation varchar(100) FOREIGN KEY REFERENCES Star(StarName)
+)
+
+INSERT Star Values
+(1, 'Sun', 'Milky Way'),
+(2, 'Proxima Centauri', 'Milky Way')
+
+INSERT Planet Values
+(1, 'Earth', 'Sun'),
+(2, 'Proxima Centauri B', 'Proxima Centauri'),
+(3, 'Mars', 'Sun')
