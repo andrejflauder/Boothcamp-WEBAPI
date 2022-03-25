@@ -19,7 +19,7 @@ namespace Space.WebApi.Controllers
         public HttpResponseMessage GET()
         {
             List<Planet> planetlist = new List<Planet>();
-            {
+            
 
                 string connectionString = @"Data Source=ST-01\MSSQLSERVER01;Initial Catalog=Space;Integrated Security=True";
                 using (SqlConnection connection = new SqlConnection(connectionString))
@@ -47,7 +47,7 @@ namespace Space.WebApi.Controllers
                 }
 
                 return Request.CreateResponse(HttpStatusCode.OK,planetlist);
-            }
+            
         }
     }
 }
