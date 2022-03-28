@@ -24,7 +24,7 @@ namespace Space.Repository
             {
                 SqlCommand command = new SqlCommand("SELECT * FROM Planet;", connection);
 
-                connection.Open();
+                await connection.OpenAsync();
 
                 SqlDataReader dataReader = command.ExecuteReader();
 
