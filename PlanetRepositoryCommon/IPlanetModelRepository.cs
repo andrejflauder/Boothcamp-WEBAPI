@@ -1,14 +1,16 @@
-﻿using PlanetModel;
+﻿using Space.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PlanetRepositoryCommon
+namespace Space.Repository.Common
 {
-    public class IPlanetModelRepository : IPlanetModelRepositoryBase
+    public interface IPlanetModelRepository
     {
-        Planet GetById(int PlanetID);
+        //List<Planet> GetPlanet();
+        //Planet GetById(int PlanetID);
+        //void Post(Planet postModel);
     }
 }

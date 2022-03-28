@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PlanetModelCommon
+namespace Space.Model.Common
 {
-    public class IPlanet
+    public interface IPlanet
     {
         int PlanetID { get; set; }
         string PlanetName { get; set; }

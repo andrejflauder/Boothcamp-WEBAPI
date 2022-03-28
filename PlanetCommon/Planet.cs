@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PlanetCommon
+namespace Space.Common
 {
-    public class Planet
-    {
+    //public class Planet
+    //{
 
-        public int PlanetID { get; set; }
-        public string PlanetName { get; set; }
-        public string PlanetLocation { get; set; }
+    //    public int PlanetID { get; set; }
+    //    public string PlanetName { get; set; }
+    //    public string PlanetLocation { get; set; }
 
-    }
+    //}
 }

@@ -1,14 +1,14 @@
-﻿using PlanetModel;
+﻿using Space.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PlanetServiceCommon
+namespace Space.Service.Common
 {
-    public class IPlanetService : IPlanetServiceBase
+    public interface IPlanetService
     {
-        Planet GetById(int PlanetID);
+        //Planet GetById(int PlanetID);
     }
 }

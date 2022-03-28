@@ -5,24 +5,24 @@ VisualStudioVersion = 17.1.32127.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Space.WebApi", "Space.WebApi\Space.WebApi.csproj", "{4341F40F-6E2D-4361-A7C2-140594877392}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetService", "PlanetService\PlanetService.csproj", "{C2779878-C84A-4689-837A-770B2554B7E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Space.Service", "PlanetService\Space.Service.csproj", "{C2779878-C84A-4689-837A-770B2554B7E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetRepository", "PlanetRepository\PlanetRepository.csproj", "{C4A8C51D-BEED-4494-ADE8-DBF59F24064A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Space.Repository", "PlanetRepository\Space.Repository.csproj", "{C4A8C51D-BEED-4494-ADE8-DBF59F24064A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetCommon", "PlanetCommon\PlanetCommon.csproj", "{BE86CFE2-A59C-4463-ACCF-858D8A74EFB4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Space.Common", "PlanetCommon\Space.Common.csproj", "{BE86CFE2-A59C-4463-ACCF-858D8A74EFB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetRepositoryCommon", "PlanetRepositoryCommon\PlanetRepositoryCommon.csproj", "{F64B590B-BB4D-4A06-B23D-6056922EB0D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Space.Repository.Common", "PlanetRepositoryCommon\Space.Repository.Common.csproj", "{F64B590B-BB4D-4A06-B23D-6056922EB0D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetModel", "PlanetModel\PlanetModel.csproj", "{5A1E4A8E-337C-4684-858D-7BAEC26F1F04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Space.Model", "PlanetModel\Space.Model.csproj", "{5A1E4A8E-337C-4684-858D-7BAEC26F1F04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetModelCommon", "PlanetModelCommon\PlanetModelCommon.csproj", "{963144FF-8612-4F84-A35D-DFEDE22DC653}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Space.Model.Common", "PlanetModelCommon\Space.Model.Common.csproj", "{963144FF-8612-4F84-A35D-DFEDE22DC653}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{938155B8-A4EF-4108-A447-9C82F0544F77}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetServiceCommon", "PlanetServiceCommon\PlanetServiceCommon.csproj", "{F34F9A5B-D1EB-421F-B77A-AEA00781E393}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Space.Service.Common", "PlanetServiceCommon\Space.Service.Common.csproj", "{F34F9A5B-D1EB-421F-B77A-AEA00781E393}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

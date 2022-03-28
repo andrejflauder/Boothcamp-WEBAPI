@@ -1,29 +1,24 @@
-﻿using PlanetModel;
-using PlanetRepository;
-using PlanetRepositoryCommon;
-using PlanetServiceCommon;
+﻿using Space.Model;
+using Space.Repository.Common;
+using Space.Service.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Space.Repository;
+using Space.Common;
 
-namespace PlanetService
+namespace Space.Service
 {
     public class PlanetService : IPlanetService
     {
-        public List<Planet> GetAll()
+        public async Task<List<Planet>> GetPlanet(PlanetRepository planetRepository)
         {
-            IPlanetModelRepository planetModelRepository = new IPlanetModelRepository();
-            List<Planet> planetlist = Planet.GetAll();
-            return planetlist;
-        }
-
-        public Planet GetById(int Id)
-        {
-            IPlanetModelRepository planetModelRepository = new IPlanetModelRepository();
-            Planet planetlist = planetModelRepository.GetById(Id);
+            PlanetRepository planetModelRepository = new PlanetRepository();
+            List<Planet> planetlist = await planetRepository.GetPlanet();
             return planetlist;
         }
     }
+
 }
