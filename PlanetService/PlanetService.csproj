@@ -44,5 +44,24 @@
     <Compile Include="PlanetService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PlanetModelCommon\PlanetModelCommon.csproj">
+      <Project>{963144FF-8612-4F84-A35D-DFEDE22DC653}</Project>
+      <Name>PlanetModelCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlanetModel\PlanetModel.csproj">
+      <Project>{5A1E4A8E-337C-4684-858D-7BAEC26F1F04}</Project>
+      <Name>PlanetModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlanetRepository\PlanetRepository.csproj">
+      <Project>{C4A8C51D-BEED-4494-ADE8-DBF59F24064A}</Project>
+      <Name>PlanetRepository</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
